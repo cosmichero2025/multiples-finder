@@ -1,0 +1,32 @@
+{
+  "name": "multiples-finder",
+  "version": "1.0.0",
+  "description": "Finds the multiples of a number within a given range of integers.",
+  "main": "./src/app.js",
+  "author": "Brandon Kaufhold",
+  "license": "MIT",
+  "dependencies": {
+    "double-slider": "^2.0.0",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-transform-async-to-generator": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^2.1.1",
+    "fast-sass-loader": "^1.4.7",
+    "node-sass": "^4.12.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.3.1"
+  },
+  "scripts": {
+    "start": "live-server ./public --port=8081",
+    "dev": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "build": "webpack"
+  }
+}
